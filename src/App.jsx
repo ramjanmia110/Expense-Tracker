@@ -118,8 +118,8 @@ const App = () => {
                 <td className='bg-[#4e5e60] text-[16px] text-white font-[700] p-[10px] text-center capitalize font-["Bungee"]'>{item}</td>
                 <td className='text-blue-700 bg-[#95d9bf] text-[20px] p-[10px] font-[700] text-center font-["Bungee"]'>{listItem[index]}</td>
                 <td className='flex items-center justify-center gap-x-4 mt-5'>
-                  <button className='bg-red-600 w-[30%] text-center border-none font-["Bungee"] ' onClick={()=>DeleteItem(index)}><span className='flex items-center justify-center gap-x-4'><MdDeleteForever className='text-[18px] font-[700]' /> Delete</span></button>
-                  <button className=' w-[30%] font-["Bungee"]' onClick={()=>EditItem(index)}><span className='flex items-center justify-center gap-x-4'><CiEdit className='text-[18px] font-[700]' />Edit</span></button>
+                  <button className='bg-red-600  text-center border-none font-["Bungee"] ' onClick={()=>DeleteItem(index)}><span className='flex items-center justify-center gap-x-4'><MdDeleteForever className='text-[18px] font-[700]' /> Delete</span></button>
+                  <button className='  font-["Bungee"]' onClick={()=>EditItem(index)}><span className='flex items-center justify-center gap-x-4'><CiEdit className='text-[18px] font-[700]' />Edit</span></button>
                 </td>
               </tr>
              ))
